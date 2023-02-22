@@ -9,6 +9,7 @@ body {
     background: #1F2937; 
     display: flex;
     justify-content: space-around;
+    gap: 400px;
 }
 
 .logo {
@@ -22,7 +23,6 @@ a {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
-
 }
 
 ul {
@@ -37,8 +37,6 @@ ul {
     background: #1F2937; 
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 .hero-text {
@@ -68,3 +66,28 @@ button {
     font-size: 18px;
     color: #e5e7eb;
 }
+
+.info {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 30px;
+}
+
+.info-images {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.con {
+    max-width: 300px;
+}
+
