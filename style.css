@@ -45,7 +45,7 @@ ul {
     width: 400px;
 }
 
-button {
+button.one {
     padding: 8px 16px;
     border-radius: 8px;
     width: 100px;
@@ -90,4 +90,79 @@ button {
 .con {
     max-width: 300px;
 }
+
+.quote {
+    background: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding: 100px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-weight: bold;
+    align-self: flex-end;
+    margin-right: 450px;
+    margin-top: 25px;
+}
+
+.cta {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #3882f6;
+    margin-top: 80px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.cta-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-text {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cta-secondary {
+    color: white;
+}
+
+button.two {
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 2px solid white;
+    border-color: white;
+    width: 100px;
+    margin-top: 15px;
+    background: #3882f6;
+    color:#F9FAF8;
+    font-weight: bold;
+    font-size: 16px; 
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1F2937;
+    color:#F9FAF8;
+    height: 80px;
+    margin-top: 80px;
+}
+
 
