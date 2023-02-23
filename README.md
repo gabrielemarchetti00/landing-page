@@ -1,4 +1,4 @@
 # flexbox
-Html and css only webpage
+Html and css webpage
 
 In this project i learned flexbox
